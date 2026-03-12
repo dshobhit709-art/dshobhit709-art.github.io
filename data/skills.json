@@ -1,0 +1,99 @@
+{
+  "_instructions": "Organize your skills with vibrant colors.",
+  "sectionTitle": "Skills & Technologies",
+  "categories": [
+    {
+      "category": "Programming Languages",
+      "icon": "fas fa-code",
+      "color": "#FF6B6B",
+      "skills": [
+        "Python",
+        "SQL",
+        "R",
+        "Java",
+        "Bash"
+      ]
+    },
+    {
+      "category": "Frameworks & Libraries",
+      "icon": "fas fa-toolbox",
+      "color": "#4ECDC4",
+      "skills": [
+        "LangChain",
+        "LlamaIndex",
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "Keras",
+        "XGBoost",
+        "LightGBM",
+        "Hugging Face Transformers",
+        "FastAPI",
+        "Flask"
+      ]
+    },
+    {
+      "category": "Tools & Platforms",
+      "icon": "fas fa-wrench",
+      "color": "#FFE66D",
+      "skills": [
+        "OpenAI API",
+        "FAISS",
+        "Pinecone",
+        "Chroma",
+        "Apache Spark",
+        "PySpark",
+        "Kafka",
+        "Databricks",
+        "Snowflake",
+        "AWS Glue",
+        "MLflow",
+        "Docker",
+        "Kubernetes",
+        "Airflow",
+        "GitHub Actions",
+        "Jenkins",
+        "AWS (SageMaker, EC2, Lambda, S3, Redshift)",
+        "Azure ML Studio",
+        "Google Cloud Vertex AI",
+        "Git",
+        "GitHub",
+        "GitLab",
+        "JIRA",
+        "Agile/Scrum",
+        "Tableau",
+        "Power BI",
+        "Plotly",
+        "Matplotlib",
+        "Dash"
+      ]
+    },
+    {
+      "category": "Technical Skills",
+      "icon": "fas fa-laptop-code",
+      "color": "#A8DADC",
+      "skills": [
+        "Supervised & Unsupervised Learning",
+        "Neural Networks",
+        "CNN",
+        "RNN",
+        "LSTM",
+        "Transformers",
+        "BERT",
+        "GPT",
+        "Ensemble Models",
+        "Prompt Engineering",
+        "Retrieval-Augmented Generation (RAG)",
+        "Semantic Search",
+        "Feature Engineering",
+        "Data Pipelines",
+        "MLOps",
+        "CI/CD",
+        "Hyperparameter Tuning",
+        "Cross-Validation",
+        "Ensemble Learning",
+        "Explainable AI (SHAP, LIME)"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "_instructions": "Add your projects.",
+  "sectionTitle": "Featured Work",
+  "projects": [
+    {
+      "title": "Enterprise AI Knowledge Assistant (LLM + RAG Platform)",
+      "description": "Developed an enterprise AI assistant capable of answering domain-specific queries using LLM-powered retrieval pipelines and semantic search. Executed vector search using Pinecone embeddings enabling contextual retrieval across thousands of enterprise documents. Deployed containerized inference services using Docker and AWS EC2, supporting scalable conversational AI workflows.",
+      "longDescription": "Developed an enterprise AI assistant capable of answering domain-specific queries using LLM-powered retrieval pipelines and semantic search. Executed vector search using Pinecone embeddings enabling contextual retrieval across thousands of enterprise documents. Deployed containerized inference services using Docker and AWS EC2, supporting scalable conversational AI workflows.",
+      "category": "Backend Development",
+      "technologies": [
+        "LangChain",
+        "OpenAI API",
+        "Pinecone",
+        "FastAPI",
+        "AWS",
+        "Docker",
+        "AWS EC2"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": true,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "Intelligent Document Processing System",
+      "description": "Built an AI-powered document analysis pipeline capable of extracting and classifying information from financial documents using transformer-based NLP models. Achieved 91% classification accuracy and reduced manual document processing time by 60% through computerized entity extraction and feature engineering.",
+      "longDescription": "Built an AI-powered document analysis pipeline capable of extracting and classifying information from financial documents using transformer-based NLP models. Achieved 91% classification accuracy and reduced manual document processing time by 60% through computerized entity extraction and feature engineering.",
+      "category": "Backend Development",
+      "technologies": [
+        "PyTorch",
+        "Transformers",
+        "OCR",
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#4ECDC4",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "",
+      "demo": "",
+      "links": {
+        "github": "",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "yolov10",
+      "description": "Comprehensive project exploring software design patterns",
+      "longDescription": "Comprehensive project exploring software design patterns",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FFE66D",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/dshobhit709-art/yolov10",
+      "demo": "https://github.com/dshobhit709-art/yolov10",
+      "links": {
+        "github": "https://github.com/dshobhit709-art/yolov10",
+        "demo": "https://github.com/dshobhit709-art/yolov10",
+        "live": "https://github.com/dshobhit709-art/yolov10"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "e2e-devops-k8s-microservices-pipleline",
+      "description": "Learning project built with modern web technologies",
+      "longDescription": "Learning project built with modern web technologies",
+      "category": "Data Science",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "Go Template",
+        "HTML",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-brain",
+      "color": "#A8DADC",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/dshobhit709-art/e2e-devops-k8s-microservices-pipleline",
+      "demo": "https://github.com/dshobhit709-art/e2e-devops-k8s-microservices-pipleline",
+      "links": {
+        "github": "https://github.com/dshobhit709-art/e2e-devops-k8s-microservices-pipleline",
+        "demo": "https://github.com/dshobhit709-art/e2e-devops-k8s-microservices-pipleline",
+        "live": "https://github.com/dshobhit709-art/e2e-devops-k8s-microservices-pipleline"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "data-science-ipython-notebooks",
+      "description": "Practice repository for exploring advanced features",
+      "longDescription": "Practice repository for exploring advanced features",
+      "category": "Backend Development",
+      "technologies": [
+        "Python",
+        "CSS",
+        "Makefile",
+        "Dockerfile"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#B19CD9",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/dshobhit709-art/data-science-ipython-notebooks",
+      "demo": "https://github.com/dshobhit709-art/data-science-ipython-notebooks",
+      "links": {
+        "github": "https://github.com/dshobhit709-art/data-science-ipython-notebooks",
+        "demo": "https://github.com/dshobhit709-art/data-science-ipython-notebooks",
+        "live": "https://github.com/dshobhit709-art/data-science-ipython-notebooks"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "text-analysis-using-nlp-streamlit",
+      "description": "Comprehensive project exploring software design patterns",
+      "longDescription": "Comprehensive project exploring software design patterns",
+      "category": "Backend Development",
+      "technologies": [
+        "Python"
+      ],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF8B94",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit",
+      "demo": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit",
+      "links": {
+        "github": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit",
+        "demo": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit",
+        "live": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
+      "title": "drivesafe",
+      "description": "Personal project for exploring modern development practices",
+      "longDescription": "Personal project for exploring modern development practices",
+      "category": "Development",
+      "technologies": [],
+      "icon": "fas fa-project-diagram",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/dshobhit709-art/drivesafe",
+      "demo": "https://github.com/dshobhit709-art/drivesafe",
+      "links": {
+        "github": "https://github.com/dshobhit709-art/drivesafe",
+        "demo": "https://github.com/dshobhit709-art/drivesafe",
+        "live": "https://github.com/dshobhit709-art/drivesafe"
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    }
+  ]
+}
