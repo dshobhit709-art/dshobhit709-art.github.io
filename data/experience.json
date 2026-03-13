@@ -7,7 +7,7 @@
       "company": "Capital One Financial, PA, USA",
       "period": "Nov 2025 - Mar 2026",
       "location": "",
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=300&q=80&fit=crop",
+      "image": "https://download.logo.wine/logo/Capital_One/Capital_One-Logo.wine.png",
       "color": "#667eea",
       "description": "Built transformer-based fraud detection models using PyTorch and AWS SageMaker to analyze large-scale financial transaction streams, improving anomaly detection accuracy by 32%. Enhanced real-time ML inference services using FastAPI, Kafka, and AWS Lambda, enabling sub-400ms prediction latency across high-volume financial transactions. Designed Retrieval-Augmented Generation (RAG) pipelines using LangChain, OpenAI embeddings, and FAISS, enabling contextual search across financial policies and compliance documentation. Systematized model lifecycle workflows using MLflow, Airflow, and Docker, reducing model retraining and deployment cycles from 14 days to 3 days. Enforced explainable AI frameworks using SHAP and LIME to improve transparency in credit risk prediction models and support regulatory compliance requirements. Processed large-scale financial datasets using PySpark and Snowflake, developing feature engineering pipelines supporting enterprise machine learning workflows. Collaborated with risk analytics teams, data engineers, and product managers to integrate predictive insights into fraud monitoring and enterprise decision systems.",
       "responsibilities": [
@@ -25,7 +25,7 @@
       "company": "CitiusTech, India",
       "period": "Aug 2020 - Dec 2024",
       "location": "",
-      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=300&q=80&fit=crop",
+      "image": "https://www.citiustech.com/hubfs/citiustech-2024/Media%20Kit/Logos/CT%20Ultramarine/PNG/CitiusTech%20Logo_and_Brand%20Colours-02.png",
       "color": "#f093fb",
       "description": "Expanded NLP pipelines using Hugging Face Transformers to extract medical insights and classify clinical text from electronic health records, achieving 92% classification accuracy. Built deep learning models using CNN and transfer learning in TensorFlow for medical imaging analysis, achieving 95% diagnostic classification accuracy. Processed more than 30TB of healthcare datasets using Apache Spark, AWS Glue, and Snowflake, reducing ETL processing time by 55%. Designed scalable machine learning pipelines using Python, PySpark, and Databricks supporting predictive healthcare analytics platforms. Applied containerized ML deployment pipelines using Docker and Kubernetes, reducing deployment failures by 50% and improving production reliability. Improved Power BI and Tableau dashboards integrating predictive patient risk insights, enabling faster clinical decision making for healthcare teams. Ensured HIPAA-compliant handling of PHI across machine learning data pipelines and model training workflows. Built mechanized model monitoring and drift detection pipelines, ensuring stability and long-term reliability of production ML systems.",
       "responsibilities": [
