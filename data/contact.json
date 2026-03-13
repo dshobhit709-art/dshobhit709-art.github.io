@@ -1,13 +1,14 @@
 {
   "_instructions": "Contact section.",
   "sectionTitle": "Get In Touch",
+  "sectionImage": "https://images.unsplash.com/photo-1423666639041-f56000c27a9a?w=1200&h=400&q=80&fit=crop",
   "subtitle": "Have a project in mind? I'd love to hear from you!",
   "contactInfo": [
     {
       "type": "email",
       "label": "Email",
-      "value": "iamshobhit98@gmail.com",
-      "href": "mailto:iamshobhit98@gmail.com",
+      "value": "dshobhit709@gmail.com",
+      "href": "mailto:dshobhit709@gmail.com",
       "icon": "fas fa-envelope",
       "color": "#FF6B6B"
     },

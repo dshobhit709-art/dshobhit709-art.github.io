@@ -18,7 +18,7 @@
       ],
       "icon": "fas fa-brain",
       "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&q=80&fit=crop",
       "featured": true,
       "github": "",
       "demo": "",
@@ -45,7 +45,7 @@
       ],
       "icon": "fas fa-project-diagram",
       "color": "#4ECDC4",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&h=400&q=80&fit=crop",
       "featured": false,
       "github": "",
       "demo": "",
@@ -60,25 +60,26 @@
       }
     },
     {
-      "title": "yolov10",
-      "description": "Comprehensive project exploring software design patterns",
-      "longDescription": "Comprehensive project exploring software design patterns",
-      "category": "Backend Development",
+      "title": "Sentiment Analysis Web App with SageMaker",
+      "description": "Built a sentiment analysis web application using AWS SageMaker for model training and deployment, with a Python and HTML frontend for real-time text classification and sentiment prediction.",
+      "longDescription": "Built a sentiment analysis web application using AWS SageMaker for model training and deployment, with a Python and HTML frontend for real-time text classification and sentiment prediction.",
+      "category": "Machine Learning",
       "technologies": [
         "Python",
-        "Shell",
-        "Dockerfile"
+        "AWS SageMaker",
+        "Jupyter Notebook",
+        "HTML"
       ],
-      "icon": "fas fa-project-diagram",
+      "icon": "fas fa-chart-line",
       "color": "#FFE66D",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&h=400&q=80&fit=crop",
       "featured": false,
-      "github": "https://github.com/dshobhit709-art/yolov10",
-      "demo": "https://github.com/dshobhit709-art/yolov10",
+      "github": "https://github.com/dshobhit709-art/sentiment-analysis-webapp-sagemaker",
+      "demo": "",
       "links": {
-        "github": "https://github.com/dshobhit709-art/yolov10",
-        "demo": "https://github.com/dshobhit709-art/yolov10",
-        "live": "https://github.com/dshobhit709-art/yolov10"
+        "github": "https://github.com/dshobhit709-art/sentiment-analysis-webapp-sagemaker",
+        "demo": "",
+        "live": ""
       },
       "stats": {
         "status": "Completed",
@@ -99,7 +100,7 @@
       ],
       "icon": "fas fa-brain",
       "color": "#A8DADC",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?w=600&h=400&q=80&fit=crop",
       "featured": false,
       "github": "https://github.com/dshobhit709-art/e2e-devops-k8s-microservices-pipleline",
       "demo": "https://github.com/dshobhit709-art/e2e-devops-k8s-microservices-pipleline",
@@ -126,7 +127,7 @@
       ],
       "icon": "fas fa-project-diagram",
       "color": "#B19CD9",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&q=80&fit=crop",
       "featured": false,
       "github": "https://github.com/dshobhit709-art/data-science-ipython-notebooks",
       "demo": "https://github.com/dshobhit709-art/data-science-ipython-notebooks",
@@ -150,7 +151,7 @@
       ],
       "icon": "fas fa-project-diagram",
       "color": "#FF8B94",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&q=80&fit=crop",
       "featured": false,
       "github": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit",
       "demo": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit",
@@ -158,28 +159,6 @@
         "github": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit",
         "demo": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit",
         "live": "https://github.com/dshobhit709-art/text-analysis-using-nlp-streamlit"
-      },
-      "stats": {
-        "status": "Completed",
-        "year": "2026"
-      }
-    },
-    {
-      "title": "drivesafe",
-      "description": "Personal project for exploring modern development practices",
-      "longDescription": "Personal project for exploring modern development practices",
-      "category": "Development",
-      "technologies": [],
-      "icon": "fas fa-project-diagram",
-      "color": "#FF6B6B",
-      "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&q=80&fit=crop",
-      "featured": false,
-      "github": "https://github.com/dshobhit709-art/drivesafe",
-      "demo": "https://github.com/dshobhit709-art/drivesafe",
-      "links": {
-        "github": "https://github.com/dshobhit709-art/drivesafe",
-        "demo": "https://github.com/dshobhit709-art/drivesafe",
-        "live": "https://github.com/dshobhit709-art/drivesafe"
       },
       "stats": {
         "status": "Completed",
