@@ -3,13 +3,13 @@
   "greeting": "Hi, I'm",
   "name": "Shobhit Dixit",
   "title": "AI/ML Engineer",
-  "summary": "AI/ML Engineer with 2+ years of experience specializing in Python, SQL, R.",
+  "summary": "AI/ML Engineer with 5+ years of experience specializing in Python, SQL, R.",
   "avatarUrl": "/avatar.png",
   "tagline": "AI/ML Engineer",
   "highlights": [
     {
       "icon": "fas fa-briefcase",
-      "text": "2+ Years Experience",
+      "text": "5+ Years Experience",
       "color": "#FF6B6B"
     },
     {
@@ -42,7 +42,7 @@
   "socialLinks": [
     {
       "platform": "Email",
-      "url": "mailto:iamshobhit98@gmail.com",
+      "url": "mailto:dshobhit709@gmail.com",
       "icon": "fas fa-envelope"
     }
   ],

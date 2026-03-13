@@ -207,16 +207,18 @@ async function loadExperience() {
         // Set section title
         document.getElementById('experience-title').textContent = data.sectionTitle;
 
-        // Render timeline
-        const timelineContainer = document.getElementById('experience-timeline');
-        if (timelineContainer && data.experiences) {
-            timelineContainer.innerHTML = data.experiences.map(exp => `
-                <div class="timeline-item">
-                    <div class="timeline-empty"></div>
-                    <div class="timeline-icon" style="background: ${exp.color}">
-                        <i class="${exp.icon}"></i>
-                    </div>
-                    <div class="timeline-content">
+        // Render experience cards
+        const experienceGrid = document.getElementById('experience-grid');
+        if (experienceGrid && data.experiences) {
+            experienceGrid.innerHTML = data.experiences.map(exp => `
+                <div class="experience-card">
+                    ${exp.image ? `
+                        <div class="experience-image">
+                            <img src="${exp.image}" alt="${exp.company}" loading="lazy">
+                            <div class="experience-image-overlay" style="background: linear-gradient(180deg, transparent 20%, ${exp.color || '#667eea'}44 100%)"></div>
+                        </div>
+                    ` : ''}
+                    <div class="experience-body">
                         <div class="experience-header">
                             <h3 class="experience-title">${exp.title}</h3>
                             <p class="experience-company">
@@ -264,14 +266,22 @@ async function loadSkills() {
         if (skillsGrid && data.categories) {
             skillsGrid.innerHTML = data.categories.map(category => `
                 <div class="skill-category">
-                    <div class="skill-category-header">
-                        <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
-                            <i class="${category.icon}"></i>
+                    ${category.image ? `
+                        <div class="skill-category-image">
+                            <img src="${category.image}" alt="${category.category}" loading="lazy">
+                            <div class="skill-category-image-overlay" style="background: linear-gradient(180deg, transparent 20%, ${category.color}33 100%)"></div>
                         </div>
-                        <h3 class="skill-category-title">${category.category}</h3>
-                    </div>
-                    <div class="skill-list">
-                        ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                    ` : ''}
+                    <div class="skill-category-body">
+                        <div class="skill-category-header">
+                            <div class="skill-category-icon" style="background: ${category.color}20; color: ${category.color}">
+                                <i class="${category.icon}"></i>
+                            </div>
+                            <h3 class="skill-category-title">${category.category}</h3>
+                        </div>
+                        <div class="skill-list">
+                            ${category.skills.map(skill => `<span class="skill-tag">${skill}</span>`).join('')}
+                        </div>
                     </div>
                 </div>
             `).join('');
@@ -297,6 +307,12 @@ async function loadProjects() {
         if (projectsGrid && data.projects) {
             projectsGrid.innerHTML = data.projects.map(project => `
                 <div class="project-card">
+                    ${project.image ? `
+                        <div class="project-image">
+                            <img src="${project.image}" alt="${project.title}" loading="lazy">
+                            <div class="project-image-overlay"></div>
+                        </div>
+                    ` : ''}
                     <div class="project-icon" style="background: ${project.color}">
                         <i class="${project.icon}"></i>
                     </div>
@@ -359,39 +375,26 @@ async function loadEducation() {
         if (educationGrid && data.education) {
             educationGrid.innerHTML = data.education.map(edu => `
                 <div class="education-card">
-                    <div class="education-icon" style="background: ${edu.color}20; color: ${edu.color}">
-                        <i class="${edu.icon}"></i>
-                    </div>
-                    <h3 class="education-degree">${edu.degree}</h3>
-                    <p class="education-institution">${edu.institution}</p>
-                    <p class="education-period">${edu.period}</p>
-                    <p class="education-description">${edu.description}</p>
-                    ${edu.achievements ? `
-                        <ul class="education-achievements">
-                            ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-                        </ul>
+                    ${edu.logo ? `
+                        <div class="education-logo">
+                            <img src="${edu.logo}" alt="${edu.institution}" loading="lazy">
+                        </div>
                     ` : ''}
-                </div>
-            `).join('');
-        }
-
-        // Set certifications title
-        document.getElementById('certifications-title').textContent = data.certificationsTitle;
-
-        // Render certifications
-        const certificationsGrid = document.getElementById('certifications-grid');
-        if (certificationsGrid && data.certifications) {
-            certificationsGrid.innerHTML = data.certifications.map(cert => `
-                <div class="certification-card">
-                    <div class="certification-icon" style="color: ${cert.color}">
-                        <i class="${cert.icon}"></i>
+                    <div class="education-body">
+                        <h3 class="education-degree">${edu.degree}</h3>
+                        <p class="education-institution">${edu.institution}</p>
+                        <p class="education-period">${edu.period}</p>
+                        ${edu.description ? `<p class="education-description">${edu.description}</p>` : ''}
+                        ${edu.achievements ? `
+                            <ul class="education-achievements">
+                                ${edu.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+                            </ul>
+                        ` : ''}
                     </div>
-                    <h4 class="certification-title">${cert.title}</h4>
-                    <p class="certification-issuer">${cert.issuer}</p>
-                    <p class="certification-date">${cert.date}</p>
                 </div>
             `).join('');
         }
+
     } catch (error) {
         console.error('Error loading education section:', error);
     }
@@ -407,6 +410,13 @@ async function loadContact() {
 
         // Set section title and subtitle
         document.getElementById('contact-title').textContent = data.sectionTitle;
+
+        // Render section image
+        const contactImageContainer = document.getElementById('contact-image');
+        if (contactImageContainer && data.sectionImage) {
+            contactImageContainer.innerHTML = `<img src="${data.sectionImage}" alt="Get In Touch" loading="lazy">`;
+        }
+
         document.getElementById('contact-subtitle').textContent = data.subtitle;
 
         // Render contact info
@@ -638,7 +648,7 @@ function initializeScrollEffects() {
 // Initialize Scroll Reveal Animation
 // ============================================
 function initializeScrollReveal() {
-    const revealElements = document.querySelectorAll('.section, .timeline-item, .skill-category, .project-card, .education-card, .certification-card');
+    const revealElements = document.querySelectorAll('.section, .experience-card, .skill-category, .project-card, .education-card');
 
     const revealOnScroll = () => {
         revealElements.forEach(element => {

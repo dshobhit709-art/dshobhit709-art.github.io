@@ -15,7 +15,7 @@
     },
     {
       "icon": "fas fa-briefcase",
-      "value": "2+",
+      "value": "5+",
       "label": "Years Experience",
       "color": "#4ECDC4"
     },
@@ -24,17 +24,11 @@
       "value": "65+",
       "label": "Technologies",
       "color": "#FFE66D"
-    },
-    {
-      "icon": "fas fa-award",
-      "value": "0+",
-      "label": "Certifications",
-      "color": "#A8DADC"
     }
   ],
   "downloadCV": {
     "text": "Download Resume",
-    "href": "assets/files/resume.pdf",
+    "href": "assets/docs/Shobhit_Dixit_Resume.pdf",
     "icon": "fas fa-download"
   }
 }
