@@ -142,6 +142,34 @@
       }
     },
     {
+      "title": "YOLOv10 - Real-Time Object Detection",
+      "description": "Implemented YOLOv10 object detection model for real-time visual recognition tasks, leveraging state-of-the-art deep learning architectures for high-accuracy detection across diverse image datasets.",
+      "longDescription": "Implemented YOLOv10 object detection model for real-time visual recognition tasks, leveraging state-of-the-art deep learning architectures for high-accuracy detection across diverse image datasets.",
+      "category": "Computer Vision",
+      "technologies": [
+        "Python",
+        "PyTorch",
+        "YOLO",
+        "OpenCV",
+        "Docker"
+      ],
+      "icon": "fas fa-eye",
+      "color": "#FF6B6B",
+      "image": "https://images.unsplash.com/photo-1535378917042-10a22c95931a?w=600&h=400&q=80&fit=crop",
+      "featured": false,
+      "github": "https://github.com/dshobhit709-art/yolov10",
+      "demo": "",
+      "links": {
+        "github": "https://github.com/dshobhit709-art/yolov10",
+        "demo": "",
+        "live": ""
+      },
+      "stats": {
+        "status": "Completed",
+        "year": "2026"
+      }
+    },
+    {
       "title": "text-analysis-using-nlp-streamlit",
       "description": "Comprehensive project exploring software design patterns",
       "longDescription": "Comprehensive project exploring software design patterns",
