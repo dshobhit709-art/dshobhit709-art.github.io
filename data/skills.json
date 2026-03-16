@@ -12,7 +12,8 @@
         "SQL",
         "R",
         "Java",
-        "Bash"
+        "Bash",
+        "Scala"
       ]
     },
     {
@@ -68,7 +69,9 @@
         "Power BI",
         "Plotly",
         "Matplotlib",
-        "Dash"
+        "Dash",
+        "Data Storytelling",
+        "Business Intelligence"
       ]
     },
     {
@@ -86,17 +89,31 @@
         "BERT",
         "GPT",
         "Ensemble Models",
+        "Reinforcement Learning",
+        "Time Series Forecasting",
         "Prompt Engineering",
         "Retrieval-Augmented Generation (RAG)",
         "Semantic Search",
+        "Data Cleaning",
+        "Data Wrangling",
+        "Statistical Analysis",
         "Feature Engineering",
         "Data Pipelines",
+        "Data Warehousing",
+        "Data Lakes",
         "MLOps",
         "CI/CD",
+        "A/B Testing",
         "Hyperparameter Tuning",
         "Cross-Validation",
         "Ensemble Learning",
-        "Explainable AI (SHAP, LIME)"
+        "Explainable AI (SHAP, LIME)",
+        "Hypothesis Testing",
+        "Probability Theory",
+        "Bayesian Modeling",
+        "Predictive Modeling",
+        "Time Series Analysis",
+        "Experimental Design"
       ]
     }
   ]

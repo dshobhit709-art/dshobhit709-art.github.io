@@ -5,7 +5,7 @@
     {
       "title": "AI/ML Engineer",
       "company": "Capital One Financial, PA, USA",
-      "period": "Nov 2025 - Mar 2026",
+      "period": "Sep 2025 - Mar 2026",
       "location": "",
       "image": "https://download.logo.wine/logo/Capital_One/Capital_One-Logo.wine.png",
       "color": "#667eea",
@@ -21,22 +21,22 @@
       ]
     },
     {
-      "title": "AI/ML Engineer",
+      "title": "Data Science Engineer",
       "company": "CitiusTech, India",
-      "period": "Aug 2020 - Dec 2024",
+      "period": "Aug 2021 - Dec 2024",
       "location": "",
       "image": "https://www.citiustech.com/hubfs/citiustech-2024/Media%20Kit/Logos/CT%20Ultramarine/PNG/CitiusTech%20Logo_and_Brand%20Colours-02.png",
       "color": "#f093fb",
-      "description": "Expanded NLP pipelines using Hugging Face Transformers to extract medical insights and classify clinical text from electronic health records, achieving 92% classification accuracy. Built deep learning models using CNN and transfer learning in TensorFlow for medical imaging analysis, achieving 95% diagnostic classification accuracy. Processed more than 30TB of healthcare datasets using Apache Spark, AWS Glue, and Snowflake, reducing ETL processing time by 55%. Designed scalable machine learning pipelines using Python, PySpark, and Databricks supporting predictive healthcare analytics platforms. Applied containerized ML deployment pipelines using Docker and Kubernetes, reducing deployment failures by 50% and improving production reliability. Improved Power BI and Tableau dashboards integrating predictive patient risk insights, enabling faster clinical decision making for healthcare teams. Ensured HIPAA-compliant handling of PHI across machine learning data pipelines and model training workflows. Built mechanized model monitoring and drift detection pipelines, ensuring stability and long-term reliability of production ML systems.",
+      "description": "Developed end-to-end Natural Language Processing models using Python, Hugging Face Transformers, and BERT to analyze clinical narratives from electronic health records, improving medical entity recognition and text classification accuracy to 92% while enabling structured healthcare insights for predictive analytics. Built and optimized deep learning models using CNN architectures and transfer learning in TensorFlow and Keras for medical imaging diagnostics, achieving 95% classification accuracy and improving automated disease detection across large imaging datasets. Engineered large-scale data processing pipelines using Apache Spark, PySpark, AWS Glue, and Snowflake, processing 30TB+ healthcare datasets and reducing ETL processing time by 55%, enabling scalable data science workflows and faster analytics delivery. Designed scalable machine learning pipelines using Python, Databricks, and MLflow, supporting predictive healthcare analytics models including patient risk prediction and treatment outcome forecasting. Implemented MLOps workflows using Docker, Kubernetes, and CI/CD pipelines, automating model deployment and reducing production deployment failures by 50%, improving reliability and scalability of ML systems. Built advanced analytics dashboards using Power BI and Tableau, integrating machine learning predictions and healthcare KPIs, enabling data-driven clinical decision making and operational insights. Applied data governance and HIPAA-compliant data engineering practices to ensure secure handling of PHI datasets during data preprocessing, model training, and analytics pipelines. Implemented model monitoring, drift detection, and automated retraining pipelines using MLflow and Python, ensuring long-term stability and performance of production machine learning models.",
       "responsibilities": [
-        "Expanded NLP pipelines using Hugging Face Transformers to extract medical insights and classify clinical text from electronic health records, achieving 92% classification accuracy",
-        "Built deep learning models using CNN and transfer learning in TensorFlow for medical imaging analysis, achieving 95% diagnostic classification accuracy",
-        "Processed more than 30TB of healthcare datasets using Apache Spark, AWS Glue, and Snowflake, reducing ETL processing time by 55%",
-        "Designed scalable machine learning pipelines using Python, PySpark, and Databricks supporting predictive healthcare analytics platforms",
-        "Applied containerized ML deployment pipelines using Docker and Kubernetes, reducing deployment failures by 50% and improving production reliability",
-        "Improved Power BI and Tableau dashboards integrating predictive patient risk insights, enabling faster clinical decision making for healthcare teams",
-        "Ensured HIPAA-compliant handling of PHI across machine learning data pipelines and model training workflows",
-        "Built mechanized model monitoring and drift detection pipelines, ensuring stability and long-term reliability of production ML systems"
+        "Developed end-to-end Natural Language Processing models using Python, Hugging Face Transformers, and BERT to analyze clinical narratives from electronic health records, improving medical entity recognition and text classification accuracy to 92% while enabling structured healthcare insights for predictive analytics",
+        "Built and optimized deep learning models using CNN architectures and transfer learning in TensorFlow and Keras for medical imaging diagnostics, achieving 95% classification accuracy and improving automated disease detection across large imaging datasets",
+        "Engineered large-scale data processing pipelines using Apache Spark, PySpark, AWS Glue, and Snowflake, processing 30TB+ healthcare datasets and reducing ETL processing time by 55%, enabling scalable data science workflows and faster analytics delivery",
+        "Designed scalable machine learning pipelines using Python, Databricks, and MLflow, supporting predictive healthcare analytics models including patient risk prediction and treatment outcome forecasting",
+        "Implemented MLOps workflows using Docker, Kubernetes, and CI/CD pipelines, automating model deployment and reducing production deployment failures by 50%, improving reliability and scalability of ML systems",
+        "Built advanced analytics dashboards using Power BI and Tableau, integrating machine learning predictions and healthcare KPIs, enabling data-driven clinical decision making and operational insights",
+        "Applied data governance and HIPAA-compliant data engineering practices to ensure secure handling of PHI datasets during data preprocessing, model training, and analytics pipelines",
+        "Implemented model monitoring, drift detection, and automated retraining pipelines using MLflow and Python, ensuring long-term stability and performance of production machine learning models"
       ]
     }
   ]
